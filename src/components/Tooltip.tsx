@@ -2,9 +2,7 @@ import * as TooltipPrimitive from "@radix-ui/react-tooltip";
 import { clsx } from "clsx";
 import React from "react";
 
-interface TooltipProps { }
-
-const Tooltip = (props: TooltipProps) => {
+const Tooltip = () => {
     return (
         <TooltipPrimitive.Provider>
             <TooltipPrimitive.Root>
