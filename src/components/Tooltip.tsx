@@ -1,7 +1,6 @@
 import * as TooltipPrimitive from "@radix-ui/react-tooltip";
 import { clsx } from "clsx";
 import React from "react";
-import Button from "./shared/button";
 
 interface TooltipProps { }
 
